@@ -1,0 +1,4 @@
+/* Tailwind llega por CDN desde public/index.html */
+html, body, #root {
+  height: 100%;
+}
