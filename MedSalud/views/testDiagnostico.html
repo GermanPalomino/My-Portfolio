@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tests Diagnósticos — Clínica MedSalud</title>
+
+  <!-- Icons & Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+  <!-- Usa el CSS global -->
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="header-top container">
+      <a class="brand" href="../index.html" aria-label="Inicio">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="brand-name">Clínica MedSalud</span>
+      </a>
+
+      <nav class="user-nav" aria-label="Perfil">
+        <button class="avatar-btn" aria-expanded="false" aria-controls="user-menu">
+          <i class="fa-solid fa-user"></i>
+        </button>
+        <ul id="user-menu" class="menu menu-user" role="menu">
+          <li role="none"><a role="menuitem" href="#" class="menu-item">Iniciar sesión</a></li>
+          <li role="none"><a role="menuitem" href="#" class="menu-item">Registrarse</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+    </div>
+
+    <hr class="divider">
+
+    <nav id="main-nav" class="main-nav container" aria-label="Principal">
+      <ul class="menu menu-main">
+        <li><a class="menu-link" href="../index.html">Inicio</a></li>
+        <li><a class="menu-link" href="./clinica.html">La Clínica</a></li>
+        <li><a class="menu-link" href="./servicios.html">Servicios</a></li>
+        <li><a class="menu-link" href="./situacionesDeEmergencia.html">Emergencias</a></li>
+        <li><a class="menu-link" aria-current="page" href="./testDiagnostico.html">Test Diagnóstico</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN ========== -->
+  <main>
+    <!-- Hero con imagen de fondo + overlay -->
+    <section class="diagnostics-hero" style="--hero-bg:url('../assets/img/pexels-chokniti-khongchum-3082451.jpg')">
+      <div class="container diagnostics-hero-inner">
+        <h1 class="diagnostics-title">Tests Diagnósticos</h1>
+        <p class="diagnostics-sub">Encuentre aquí herramientas rápidas para evaluar su estado de salud.</p>
+      </div>
+    </section>
+
+    <!-- Grid de tests -->
+    <section class="tests-grid container">
+      <a class="test-card" href="../views/testCovid.html">
+        <figure>
+          <img src="../assets/img/covid.png" alt="Test de COVID-19">
+        </figure>
+        <h2>Test de COVID-19</h2>
+      </a>
+
+      <a class="test-card" href="../views/testVirueladelMono.html">
+        <figure>
+          <img src="../assets/img/monkey.png" alt="Test de viruela símica">
+        </figure>
+        <h2>Test de viruela símica</h2>
+      </a>
+
+      <a class="test-card" href="../views/testGripe.html">
+        <figure>
+          <img src="../assets/img/gripe.png" alt="Test de gripe">
+        </figure>
+        <h2>Test de gripe</h2>
+      </a>
+
+      <a class="test-card" href="../views/testIntoxicacion.html">
+        <figure>
+          <img src="../assets/img/stomach ache.jpg" alt="Test de intoxicación por alimentos">
+        </figure>
+        <h2>Intoxicación por alimentos</h2>
+      </a>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <h2 class="footer-title">Síguenos</h2>
+      <div class="social">
+        <a class="social-btn" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="social-btn" href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a class="social-btn" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Clínica MedSalud. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../scripts/main.js"></script>
+</body>
+</html>

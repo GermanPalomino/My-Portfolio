@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test Covid-19 — Clínica MedSalud</title>
+
+  <!-- Icons & Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../styles/stylessCovid.css">
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="header-top container">
+      <a class="brand" href="../index.html" aria-label="Inicio">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="brand-name">Clínica MedSalud</span>
+      </a>
+
+      <nav class="user-nav" aria-label="Perfil">
+        <button class="avatar-btn" aria-expanded="false" aria-controls="user-menu">
+          <i class="fa-solid fa-user"></i>
+        </button>
+        <ul id="user-menu" class="menu menu-user" role="menu">
+          <li role="none"><a role="menuitem" href="#" class="menu-item">Iniciar sesión</a></li>
+          <li role="none"><a role="menuitem" href="#" class="menu-item">Registrarse</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+    </div>
+
+    <hr class="divider">
+
+    <nav id="main-nav" class="main-nav container" aria-label="Principal">
+      <ul class="menu menu-main">
+        <li><a class="menu-link" href="../index.html">Inicio</a></li>
+        <li><a class="menu-link" href="./clinica.html">La Clínica</a></li>
+        <li><a class="menu-link" href="./servicios.html">Servicios</a></li>
+        <li><a class="menu-link" href="./situacionesDeEmergencia.html">Emergencias</a></li>
+        <li><a class="menu-link" aria-current="page" href="./testDiagnostico.html">Test Diagnóstico</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN ========== -->
+  <main>
+    <section class="diagnostics-hero" style="--hero-bg:url('../assets/img/pexels-chokniti-khongchum-3082451.jpg')">
+      <div class="container diagnostics-hero-inner">
+        <h1 class="diagnostics-title">Test Covid-19</h1>
+        <p class="diagnostics-sub">Responda estas preguntas para orientar su estado de salud.</p>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="covid-info container">
+      <h2 class="section-title">¿Qué es la COVID-19?</h2>
+      <p>
+        La COVID-19 es la enfermedad causada por el nuevo coronavirus conocido como SARS-CoV-2. 
+        La OMS tuvo noticia por primera vez de la existencia de este virus el 31 de diciembre de 2019,
+        al ser informada de un grupo de casos de «neumonía vírica» en Wuhan (China).
+        <em>Fuente: Organización Mundial de la Salud (OMS)</em>.
+      </p>
+    </section>
+
+    <!-- Formulario -->
+    <section class="covid-form container">
+      <h2 class="section-title">Responda el Test</h2>
+      <form id="formulario">
+        <fieldset class="question-block">
+          <legend>¿Ha presentado fiebre en los últimos 5 días?</legend>
+          <label class="radio"><input type="radio" name="fiebre" value="Si"> <span>Sí</span></label>
+          <label class="radio"><input type="radio" name="fiebre" value="No"> <span>No</span></label>
+        </fieldset>
+
+        <fieldset class="question-block">
+          <legend>¿Ha presentado tos en los últimos 5 días?</legend>
+          <label class="radio"><input type="radio" name="tos" value="Si"> <span>Sí</span></label>
+          <label class="radio"><input type="radio" name="tos" value="No"> <span>No</span></label>
+        </fieldset>
+
+        <fieldset class="question-block">
+          <legend>¿Se ha sentido cansado en los últimos 5 días?</legend>
+          <label class="radio"><input type="radio" name="cansancio" value="Si"> <span>Sí</span></label>
+          <label class="radio"><input type="radio" name="cansancio" value="No"> <span>No</span></label>
+        </fieldset>
+
+        <fieldset class="question-block">
+          <legend>¿Ha perdido el gusto en los últimos 5 días?</legend>
+          <label class="radio"><input type="radio" name="gusto" value="Si"> <span>Sí</span></label>
+          <label class="radio"><input type="radio" name="gusto" value="No"> <span>No</span></label>
+        </fieldset>
+
+        <fieldset class="question-block">
+          <legend>¿Ha perdido el olfato en los últimos 5 días?</legend>
+          <label class="radio"><input type="radio" name="olfato" value="Si"> <span>Sí</span></label>
+          <label class="radio"><input type="radio" name="olfato" value="No"> <span>No</span></label>
+        </fieldset>
+
+        <fieldset class="question-block">
+          <legend>¿Ha tenido dolor de garganta, de cabeza, molestias, diarrea u ojos rojos en los últimos 5 días?</legend>
+          <label class="radio"><input type="radio" name="smh" value="Si"> <span>Sí</span></label>
+          <label class="radio"><input type="radio" name="smh" value="No"> <span>No</span></label>
+        </fieldset>
+
+        <fieldset class="question-block">
+          <legend>¿Presenta dificultad para respirar, dolor en el pecho, pérdida de movilidad o confusión?</legend>
+          <label class="radio"><input type="radio" name="ss" value="Si"> <span>Sí</span></label>
+          <label class="radio"><input type="radio" name="ss" value="No"> <span>No</span></label>
+        </fieldset>
+
+        <div class="btns">
+          <button type="submit" class="btn">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <h2 class="footer-title">Síguenos</h2>
+      <div class="social">
+        <a class="social-btn" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="social-btn" href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a class="social-btn" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Clínica MedSalud. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../scripts/testcovid.js"></script>
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
