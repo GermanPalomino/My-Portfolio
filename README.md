@@ -1,4 +1,4 @@
-# Portafolio de Proyectos — [Tu Nombre]
+# Portafolio de Proyectos
 
 ¡Bienvenido! Este repositorio reúne varios proyectos personales y académicos desarrollados durante mi formación como **Ingeniero de Software**.  
 **Cada proyecto vive en una rama distinta**, para que puedas explorarlos por separado según la tecnología.
