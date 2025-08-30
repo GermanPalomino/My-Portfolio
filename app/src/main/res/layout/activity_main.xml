@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/background2_foreground"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#d8000000"
+        >
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/logo2nob_foreground"/>
+        <Button
+            android:id="@+id/btnHomeLogin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="16dp"
+            android:backgroundTint="@color/blue3"
+            android:elevation="5dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/btnLogin"/>
+        <Button
+            android:id="@+id/btnHomeRegister"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="16dp"
+            android:backgroundTint="@color/blue3"
+            android:elevation="5dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/btnRegistro"/>
+    </LinearLayout>
+</RelativeLayout>
