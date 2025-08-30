@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Situaciones de Emergencia — Clínica MedSalud</title>
+
+  <!-- Icons & Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+  <!-- Usa el MISMO css global para mantener navbar/footer/tema -->
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="header-top container">
+      <a class="brand" href="../index.html" aria-label="Inicio">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="brand-name">Clínica MedSalud</span>
+      </a>
+
+      <nav class="user-nav" aria-label="Perfil">
+        <button class="avatar-btn" aria-expanded="false" aria-controls="user-menu">
+          <i class="fa-solid fa-user"></i>
+        </button>
+        <ul id="user-menu" class="menu menu-user" role="menu">
+          <li role="none"><a role="menuitem" href="#" class="menu-item">Iniciar sesión</a></li>
+          <li role="none"><a role="menuitem" href="#" class="menu-item">Registrarse</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+    </div>
+
+    <hr class="divider">
+
+    <nav id="main-nav" class="main-nav container" aria-label="Principal">
+      <ul class="menu menu-main">
+        <li><a class="menu-link" href="../index.html">Inicio</a></li>
+        <li><a class="menu-link" href="./clinica.html">La Clínica</a></li>
+        <li><a class="menu-link" href="./servicios.html">Servicios</a></li>
+        <li><a class="menu-link" aria-current="page" href="./situacionesDeEmergencia.html">Emergencias</a></li>
+        <li><a class="menu-link" href="./testDiagnostico.html">Test Diagnóstico</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MAIN ========== -->
+  <main>
+    <section class="sub-hero">
+      <div class="container sub-hero-inner">
+        <h1 class="sub-hero-title">Cómo actuar ante situaciones de peligro</h1>
+        <p class="sub-hero-sub">Saber reaccionar a tiempo puede salvar vidas</p>
+      </div>
+    </section>
+
+    <section class="guide container">
+      <!-- Obstrucción de vía aérea -->
+      <article id="obstruccion" class="guide-article">
+        <h2 class="guide-title"><i class="fa-solid fa-lungs"></i> Obstrucción de la vía aérea</h2>
+        <p>A una persona se le puede atascar en la garganta un elemento que impida la entrada de oxígeno. Es clave actuar con rapidez.</p>
+        <h3 class="guide-subtitle">¿Qué podemos hacer? (Maniobra de Heimlich)</h3>
+        <ol class="guide-list ordered">
+          <li>Abrazar por la espalda y por debajo de los brazos.</li>
+          <li>Colocar el puño cuatro dedos por encima del ombligo, en la línea media.</li>
+          <li>Colocar la otra mano sobre el puño.</li>
+          <li>Inclinar ligeramente el cuerpo hacia delante.</li>
+          <li>Presionar hacia atrás y hacia arriba de forma repetida.</li>
+        </ol>
+      </article>
+
+      <!-- Electrocución -->
+      <article id="electrocucion" class="guide-article">
+        <h2 class="guide-title"><i class="fa-solid fa-bolt"></i> Electrocución</h2>
+        <p>El contacto con corriente eléctrica puede generar quemaduras y comprometer la respiración o el pulso.</p>
+        <h3 class="guide-subtitle">¿Qué podemos hacer?</h3>
+        <ul class="guide-list">
+          <li>No tocar a la persona si aún está en contacto con la fuente eléctrica.</li>
+          <li>Cortar la energía (llave general) si es posible.</li>
+          <li>Si no puedes cortar la energía, usar madera/plástico para separarla del contacto.</li>
+          <li>Llamar a emergencias y evaluar respiración y respuesta.</li>
+          <li>Si no respira o no responde, realizar RCP.</li>
+          <li>Si respira pero está débil, recostar y elevar piernas.</li>
+        </ul>
+      </article>
+
+      <!-- Quemaduras -->
+      <article id="quemaduras" class="guide-article">
+        <h2 class="guide-title"><i class="fa-solid fa-fire-flame-simple"></i> Quemaduras</h2>
+        <p>Exposición a fuego o fuentes de calor. La atención temprana reduce complicaciones.</p>
+        <h3 class="guide-subtitle">¿Qué podemos hacer?</h3>
+        <ul class="guide-list">
+          <li>Quemadura leve: agua fría corriente sobre la zona.</li>
+          <li>Quitar anillos, pulseras o ropa cercana.</li>
+          <li>No aplicar grasas ni cremas caseras.</li>
+          <li>En quemaduras graves, acudir a emergencias.</li>
+        </ul>
+      </article>
+
+      <!-- Fracturas -->
+      <article id="fracturas" class="guide-article">
+        <h2 class="guide-title"><i class="fa-solid fa-bone"></i> Fracturas</h2>
+        <p>Tras caídas o impactos, inmovilizar y evitar movimientos que agraven el dolor.</p>
+        <h3 class="guide-subtitle">¿Qué podemos hacer?</h3>
+        <ul class="guide-list">
+          <li>Retirar anillos/relojes si es en brazo o mano.</li>
+          <li>Si puede caminar y no es expuesta, inmovilizar y acudir a consulta.</li>
+          <li>Si no puede caminar, o no es en extremidades, llamar a emergencias.</li>
+        </ul>
+        <h4 class="guide-subsubtitle">¿Cómo inmovilizar?</h4>
+        <p>Usar un elemento rígido (madera/cartón) más largo que el segmento afectado, fijarlo con tela o vendas y, si es en brazo, añadir cabestrillo.</p>
+      </article>
+
+      <!-- Cortes y heridas -->
+      <article id="cortes" class="guide-article">
+        <h2 class="guide-title"><i class="fa-solid fa-bandage"></i> Cortes y heridas</h2>
+        <p>Frecuentes en el hogar. Evitar infecciones y controlar hemorragias.</p>
+        <h3 class="guide-subtitle">¿Qué podemos hacer?</h3>
+        <ul class="guide-list">
+          <li>Herida sin sangrado: lavar con agua y jabón neutro, desinfectar y cubrir (sin algodón).</li>
+          <li>Sangrado leve: lavar con agua corriente.</li>
+          <li>Sangrado abundante: comprimir con tela limpia y elevar la zona.</li>
+          <li>Si persiste, acudir a hospital.</li>
+        </ul>
+      </article>
+
+      <!-- Convulsiones -->
+      <article id="convulsiones" class="guide-article">
+        <h2 class="guide-title"><i class="fa-solid fa-heart-pulse"></i> Convulsiones</h2>
+        <p>Pueden incluir contracciones, pérdida de conciencia y pérdida de control de esfínteres.</p>
+        <h3 class="guide-subtitle">¿Qué podemos hacer?</h3>
+        <ul class="guide-list">
+          <li>Proteger la cabeza con algo blando.</li>
+          <li>Retirar objetos peligrosos alrededor.</li>
+          <li>Aflojar la ropa y controlar el tiempo de la crisis.</li>
+        </ul>
+        <h4 class="guide-subsubtitle">Qué NO hacer</h4>
+        <ul class="guide-list">
+          <li>No inmovilizar por la fuerza.</li>
+          <li>No abrir la boca ni introducir objetos.</li>
+          <li>No dejar a la persona sola.</li>
+        </ul>
+      </article>
+
+      <!-- Intoxicaciones -->
+      <article id="intoxicacion" class="guide-article">
+        <h2 class="guide-title"><i class="fa-solid fa-triangle-exclamation"></i> Intoxicaciones</h2>
+        <p>Contacto por piel, ingestión o inhalación de sustancias nocivas.</p>
+        <h3 class="guide-subtitle">¿Qué podemos hacer?</h3>
+        <ul class="guide-list">
+          <li>Contacto en piel: retirar ropa y lavar con agua 15–20 min.</li>
+          <li>Inhalación (gas): ventilar y llevar a lugar abierto; acudir a hospital.</li>
+          <li>Ojo: enjuagar con agua corriente 20 min.</li>
+          <li>Ingesta con compromiso de conciencia: NO provocar vómito; trasladar urgente.</li>
+        </ul>
+      </article>
+
+      <!-- Desmayo -->
+      <article id="desmayo" class="guide-article">
+        <h2 class="guide-title"><i class="fa-solid fa-user-doctor"></i> Desmayo</h2>
+        <p>Pérdida súbita de conciencia sin dejar de respirar; prevenir golpes y facilitar recuperación.</p>
+        <h3 class="guide-subtitle">¿Qué podemos hacer?</h3>
+        <ul class="guide-list">
+          <li>Verificar respiración y lesiones.</li>
+          <li>Ventilar el ambiente; según temperatura, abrigar o refrescar.</li>
+          <li>Acostar, aflojar ropa y elevar piernas.</li>
+          <li>No ofrecer bebidas hasta recuperación completa.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <h2 class="footer-title">Síguenos</h2>
+      <div class="social">
+        <a class="social-btn" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="social-btn" href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a class="social-btn" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Clínica MedSalud. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
