@@ -1,1 +1,1 @@
-este es mi primer comit
+SPA (single-page application) construida con React, React Router y Tailwind CSS, organizada por componentes reutilizables y páginas con enfoque en rendimiento y mantenibilidad; ejecutar con npm install y npm run dev (Vite) para desarrollo y npm run build para generar el artefacto de producción.
