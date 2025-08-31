@@ -3,21 +3,7 @@
 ¡Bienvenido! Este repositorio reúne varios proyectos personales y académicos desarrollados durante mi formación como **Ingeniero de Software**.  
 **Cada proyecto vive en una rama distinta**, para que puedas explorarlos por separado según la tecnología.
 
----
-
-## 📑 Tabla de contenidos
-- [Proyectos (por rama)](#-proyectos-por-rama)
-- [Cómo explorar los proyectos](#-cómo-explorar-los-proyectos)
-- [Requisitos](#-requisitos)
-- [Guía rápida por proyecto](#-guía-rápida-por-proyecto)
-- [Estructura de ramas](#-estructura-de-ramas)
-- [Convenciones](#-convenciones)
-- [Contacto](#-contacto)
-- [Licencia](#-licencia)
-
----
-
-## 📁 Proyectos (por rama)
+## 📁 Proyectos
 
 ### 🌐 `landing_html_css_js`
 Landing page 100% responsive con **HTML, CSS y JavaScript** vanilla.  
