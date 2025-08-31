@@ -1,6 +1,6 @@
 # Portafolio de Proyectos · Projects Portfolio
 
-## 🇪🇸 Español
+## Español
 ¡Bienvenido! Este repositorio reúne varios proyectos personales y académicos desarrollados durante mi formación como **Ingeniero de Software**. **Cada proyecto vive en una rama distinta**, para que puedas explorarlos por separado según la tecnología.
 
 ### 📁 Proyectos
@@ -25,7 +25,7 @@ Clona el repo y cambia de rama para ver cada proyecto:
 
 ---
 
-## 🇬🇧 English
+## English
 Welcome! This repository gathers several personal and academic projects built during my training as a **Software Engineer**. **Each project lives in its own branch**, so you can explore them separately by technology.
 
 ### 📁 Projects
