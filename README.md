@@ -1,1 +1,1 @@
-este es mi primer comit
+Aplicación web en PHP con estructura simple estilo MVC, UI con Bootstrap 5 y CRUD con MySQL mediante PDO y prepared statements; desplegar copiando el proyecto al servidor (XAMPP/Laragon/WAMP), configurar credenciales en config/.env, crear la base de datos e ingresar vía http://localhost/<carpeta>.
