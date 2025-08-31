@@ -1,10 +1,10 @@
 <?php
 	
 	/*----------  Datos del servidor  ----------*/
-	const SERVER="localhost";
-	const DB="xcoring";
-	const USER="root";
-	const PASS="";
+	const SERVER="sql302.infinityfree.com";
+	const DB="if0_39828812_xcoring";
+	const USER="if0_39828812";
+	const PASS="3QL47EUgsLM2jw";
 
 
 	const SGBD="mysql:host=".SERVER.";dbname=".DB;
