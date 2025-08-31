@@ -1,1 +1,1 @@
-este es mi primer comit
+API REST con Node.js, Express y MongoDB usando Mongoose, preparada para CRUD, validación y manejo centralizado de errores; crear .env con MONGODB_URI y PORT, luego npm install y npm start (o npm run dev) para levantar el servicio en local.
