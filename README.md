@@ -1,1 +1,3 @@
 SPA (single-page application) construida con React, React Router y Tailwind CSS, organizada por componentes reutilizables y páginas con enfoque en rendimiento y mantenibilidad; ejecutar con npm install y npm run dev (Vite) para desarrollo y npm run build para generar el artefacto de producción. O accede a este link: https://my-portfolio-nkuw.onrender.com/
+
+SPA (single-page application) built with React, React Router, and Tailwind CSS, organized by reusable components and pages with a focus on performance and maintainability; run with npm install and npm run dev (Vite) for development, and npm run build to generate the production artifact. Or access this link: https://my-portfolio-nkuw.onrender.com/
