@@ -1,1 +1,1 @@
-este es mi primer comit
+Aplicación Android nativa en Java con UI XML y componentes Material, listas eficientes con RecyclerView y flujo básico de catálogo, detalle y carrito; abrir en Android Studio, sincronizar Gradle y ejecutar en emulador o dispositivo con depuración USB habilitada.
